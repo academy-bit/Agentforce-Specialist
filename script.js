@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const file = urlParams.get('file') || 'data1';
 
     // Construct the correct file path
-    const filePath = folder ? `Agentforce_Course/${folder}/${file}.json` : `Agentforce_Course/${file}.json`;
+    const filePath = folder ? `json/${folder}/${file}.json` : `json/${file}.json`;
 
     // Replace hyphens with spaces for display
     const formattedFilename = file.replace(/-/g, ' ');  // Replace hyphens with spaces
